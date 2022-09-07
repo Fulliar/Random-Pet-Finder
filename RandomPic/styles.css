@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dog-style{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+    
+}
+
+.dog-style img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.cat-style{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.cat-style img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+p{  
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.buttons {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+border:none;
+border-radius: 10px;
+background-color: #CD5C5C;
+color:white;
+font-weight: bold;
+font-size: 18px;
+height: 40px;
+width: 300px;
+margin: 10px
+
+}
